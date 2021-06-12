@@ -5,9 +5,10 @@ const PORT = process.env.PORT;
 const session = require('express-session')
 
 
+app.use(express.static('public'))
 
 app.get('/', (req, res) => {
-	res.send('The beginning')
+	res.render('home.ejs')
 });
 
 
