@@ -1,5 +1,5 @@
-addCircle() => {
-	for(let i=0; i<=10; i++) {
+addCircle = () => {
+	for(let i=0; i<=99; i++) {
 		let div = document.createElement('div');
 
 		div.className = "circle-container"
@@ -10,7 +10,7 @@ addCircle() => {
 
 		div.appendChild(childDiv)
 
-		document.getElementByTagName('body')[0].appendChild(div)
+		document.getElementsByClassName('content')[0].appendChild(div)
 	}
 }
 
