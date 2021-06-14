@@ -7,27 +7,81 @@ body {
 	position:  absolute;
 }
 
+a {
+	color: #B86FE8;
+}
+
+a:hover {
+	color: #EB9E3B;
+}
+
+footer {
+	text-align: center;
+}
+
+footer a{
+
+	color: #000000;
+}
+
 .content {
 	position: relative;
 	overflow: hidden;
 	bottom:  0;
-	color: #f1f1f1;
 	width:  100%;
 	padding:  20%;
+	color: #f1f1f1;
 }
 
 .opener {
 	display: inline-block;
 }
 
+.aboutMe {
+	text-align: justify;
+	text-justify:  inter-word;
+}
+
+.icon-link {
+	margin-left: 1em;
+}
+
 #firstImage {
+	margin-left: 2em;
 	display:  inline-block;
 	float:  right;
-	width:  30%;
-	height: 30%;
+	width:  20%;
+	height: 20%;
 	border-radius: 10%;
 }
 
+
+.skills, .projects, .aboutMe{
+	margin-top: 25em;
+}
+
+.project-header {
+	margin-bottom:2em;
+}
+
+.card {
+	border-radius: 10%;
+	color: #000000;
+}
+
+.card-text {
+	padding-top: 10px;
+}
+
+.game1, .blog1 {
+	margin-left: 8em;
+}
+
+.blog1 {
+	margin-left: 10em;
+	margin-top: 4em;
+
+}
 
 
 
