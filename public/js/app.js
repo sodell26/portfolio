@@ -10,7 +10,7 @@ addCircle = () => {
 
 		div.appendChild(childDiv)
 
-		document.getElementsByClassName('content')[0].appendChild(div)
+		document.getElementsByClassName('circles')[0].appendChild(div)
 	}
 }
 

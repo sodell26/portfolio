@@ -1,40 +1,55 @@
 <%- include('./partials/header.ejs')%>
+<div class="circles"></div>
 
-<div class="content">
-	<div class="opener">
-		<h1 >Sarah O'Dell</h1>
-		<h2>Full-Stack Software Engineer</h2>
-		<h4>Here to 'develop' your dreams into reality.</h4>
-		<a href="https://github.com/sodell26"><i class="fab fa-github fa-2x"></i></a>
-		<a href="https://www.linkedin.com/in/sodell26/"><i class="fab fa-linkedin fa-2x icon-link"></i></a>
-	</div>	
-
-
-
-	
-
-	<div class="aboutMe">
-		<img id="firstImage" src="/images/portrait1"/>
-		<p>Hello, World!</p>
-		<p>I'm Sarah, a full-stack software engineer with a background in fast-paced industries like tax and recruiting. I have experience with how companies work. In addition to my development knowledge, I bring professionalism, a strong work ethic, and curiosity. I like to know how things work and am always looking for ways to expand my knowledge.</p>
-		<p>It’s computer work, but it’s still about connecting people to one another. I'm here to connect the client to their customers and deliver my best work.</p>
+<div class="container">
+	<div class="row">
+			<div class="col-sm-2"></div>
+		<div class="opener col-sm-10">
+			<h1 >Sarah O'Dell</h1>
+			<h2>Full-Stack Software Engineer</h2>
+			<h4>Here to 'develop' your dreams into reality.</h4>
+			<a href="https://github.com/sodell26"><i class="fab fa-github fa-2x"></i></a>
+			<a href="https://www.linkedin.com/in/sodell26/"><i class="fab fa-linkedin fa-2x icon-link"></i></a>
+		</div>	
 	</div>
 
 
 
-	<div class="skills">
-		<h2 class="skillsh2">Skills</h2>
-		<p><strong>Languages:</strong> HTML, CSS, JavaScript, Python</p>
-		<p><strong>Frameworks & Libraries:</strong> jQuery, Node.js, Express, EJS, Mongoose, Bootstrap, React, Flask, PeeWee</p>
-		<p><strong>Databases:</strong> MongoDB, PostgreSQL</p>
-		<p><strong>Tools:</strong> Git, GitHub, Sublime, Node, NPM, Postman, pgAdmin, Heroku</p>
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="about-me col-sm-8">
+			<p>Hello, World!</p>
+			<p>I'm Sarah, a full-stack software engineer with a background in fast-paced industries like tax and recruiting. In addition to my development knowledge, I bring professionalism, a strong work ethic, and curiosity. I like to know how things work and am always looking for ways to expand my knowledge.</p>
+			<p>It’s computer work, but it’s still about working with people. I'm here to connect the client to their customers and deliver my best work.</p>
+		</div>
+		<div class="col-sm-2 about-me-img">
+			<img id="firstImage" src="/images/portrait1"/>
+		</div>
 	</div>
 
+
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="skills col-sm-8">
+			<h2 class="skillsh2">Skills</h2>
+			<p><strong>Languages:</strong> HTML, CSS, JavaScript, Python</p>
+			<p><strong>Frameworks & Libraries:</strong> jQuery, Node.js, Express, EJS, Mongoose, Bootstrap, React, Flask, PeeWee</p>
+			<p><strong>Databases:</strong> MongoDB, PostgreSQL</p>
+			<p><strong>Tools:</strong> Git, GitHub, Sublime, Node, NPM, Postman, pgAdmin, Heroku</p>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<h2 class="project-header col-sm-10">Projects</h2>
+	</div>
 
 	<div class="projects">
-		<h2 class="project-header">Projects</h2>
-		<div class="row row-cols-3 row-cols-md-3 g-4">
-			<div class="col">
+		<div class="row">	
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4">
 				<div class="card h-100 project1" style="width: 18rem;">
 					<div class="card-body">
 						<h4 class="card-title"><a href="https://ticket-hopper.herokuapp.com/" target="_blank">Ticket-Hopper</a></h4>
@@ -49,43 +64,48 @@
 
 					</div>
 				</div>
+			</div>
+
+		<div class="col-sm-4">
+			<div class="card h-100 game1" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title"><a href="https://sodell26.github.io/Enchanting/" target="_blank">Enchanting The Huddle</a></h4>
 				
-			</div>
-			<div class="col">
-				<div class="card h-100 game1" style="width: 18rem;">
-					<div class="card-body">
-						<h4 class="card-title"><a href="https://sodell26.github.io/Enchanting/" target="_blank">Enchanting The Huddle</a></h4>
-					
 					<a href="https://sodell26.github.io/Enchanting/" target="_blank"><img src="/images/cardgame.png" class="card-img-top" alt="card game project"></a>
-					
-						<p class="card-text">A turn-based card game where the player is able to choose their character, make attacks, take potions, and ultimately to try to save an enchanted forest.</p>
-					</div>
-					<div class="card-body">
-						<a href="https://github.com/sodell26/Enchanting" class="card-link">GitHub</a>
-					</div>
-				</div>				
-			</div>
-
+				
+					<p class="card-text">A turn-based card game where the player is able to choose their character, make attacks, take potions, and ultimately to try to save an enchanted forest.</p>
+				</div>
+				<div class="card-body">
+					<a href="https://github.com/sodell26/Enchanting" class="card-link">GitHub</a>
+				</div>
+			</div>				
 		</div>
-
-		<div class="col">
-				<div class="card h-100 blog1" style="width: 18rem;">
-					<div class="card-body">
-						<h4 class="card-title"><a href="https://wrens-blog.herokuapp.com/" target="_blank">Enchanting The Huddle</a></h4>
-					
-					<a href="https://wrens-blog.herokuapp.com/" target="_blank"><img src="/images/cardgame.png" class="card-img-top" alt="card game project"></a>
-					
-						<p class="card-text">A turn-based card game where the player is able to choose their character, make attacks, take potions, and ultimately to try to save an enchanted forest.</p>
-					</div>
-					<div class="card-body">
-						<a href="https://github.com/sodell26/WrensBlog" class="card-link">GitHub</a>
-					</div>
-				</div>				
-			</div>
-
-		</div>
+		<div class="col-sm-2"></div>
 	</div>
 
-
-
+	<div class="row">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">
+			<div class="card h-100 blog1" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title"><a href="https://wrens-blog.herokuapp.com/" target="_blank">Monster Blog</a></h4>
+				
+					<a href="https://wrens-blog.herokuapp.com/" target="_blank"><img src="/images/blog.png" class="card-img-top" alt="card game project"></a>
+				
+					<p class="card-text">A CRUD blog based off a fictional character. Used Express, Node, and Javascript.</p>
+				</div>
+				<div class="card-body">
+					<a href="https://github.com/sodell26/WrensBlog" class="card-link">GitHub</a>
+				</div>
+			</div>				
+		</div>
+		<div class="col-sm-4"></div>
+	</div>
+	</div>
+	<div class="footing row">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-8">
+			<p>© Sarah O'Dell | <a href="https://github.com/sodell26">GitHub</a> | <a href="https://www.linkedin.com/in/sodell26/">LinkedIn</a></p>
+		</div>
+	</div>
 <%- include('./partials/footer.ejs')%>
