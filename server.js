@@ -12,40 +12,6 @@ app.get('/', (req, res) => {
 });
 
 
-app.get('/aboutme', (req,res) => {
-	res.render('aboutMe.ejs')
-});
-
-app.get('/skills', (req,res) => {
-	res.render('skills.ejs')
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
