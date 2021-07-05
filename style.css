@@ -25,6 +25,21 @@ a:hover {
   color: #f1f1f1;
 }
 
+.project-btn {
+  background-color: #B86FE8;
+  vertical-align: text-bottom;
+  margin-left: 1em;
+}
+
+.project-btn:hover {
+  background-color: #EB9E3B
+}
+
+.project-btn a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .container {
 	position: relative;
 	overflow: hidden;
