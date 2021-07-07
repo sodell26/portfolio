@@ -1,7 +1,6 @@
 
 body {
   background:url("https://cdn.pixabay.com/photo/2017/08/10/08/42/stars-2620079_1280.jpg") no-repeat center center fixed;
-  background-size: cover;
 }
 
 
@@ -105,12 +104,8 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   body {
-    background:url("https://cdn.pixabay.com/photo/2016/11/21/15/01/stars-1845852_960_720.jpg") no-repeat center center fixed;
-    background-size: cover;
-  }
+    background: #270a78;
 
-  a {
-    color: #7ca5eb;
   }
 
   .opener {
@@ -118,8 +113,6 @@ a:hover {
   }
 
   .project-btn {
-    background-color: #7ca5eb;
-    vertical-align: text-bottom;
     margin-left: 7vw;
   }
 
@@ -132,7 +125,7 @@ a:hover {
   }
 
   .about-me {
-    margin-top: 40vw;
+    margin-top: 47vw;
   }
 
   .about-me-img {
