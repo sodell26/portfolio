@@ -81,7 +81,7 @@ a:hover {
 }
 
 .blog1 {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .opener {
@@ -103,7 +103,11 @@ a:hover {
   color: #000000;
 }
 
-
+@media screen and (max-width: 600px) {
+  .blog1 {
+    margin-top:  0rem;
+  }
+}
 
 
 /*----------animation------------*/
