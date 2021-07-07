@@ -1,7 +1,7 @@
 
 body {
   background:url("https://cdn.pixabay.com/photo/2017/08/10/08/42/stars-2620079_1280.jpg") no-repeat center center fixed;
-  background-size: cover;
+  background-size: auto auto;
 }
 
 
@@ -104,6 +104,9 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    background-size: cover;
+  }
   .blog1 {
     margin-top:  0rem;
   }
