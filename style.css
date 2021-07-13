@@ -109,7 +109,7 @@ a:hover {
   }
 
   a .fab{
-    color: #95dadb;;
+    color: #95dadb;
   }
 
   .opener {
@@ -140,6 +140,15 @@ a:hover {
   .blog1 {
     margin-top:  0rem;
   }
+
+  .footing {
+    color: #95dadb;
+  }
+
+  .footing a{
+    color: #95dadb;
+  }
+
 }
 
 
