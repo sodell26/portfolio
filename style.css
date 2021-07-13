@@ -104,8 +104,12 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   body {
-    background: #270a78;
+    background: #5d6da3;
 
+  }
+
+  a .fab{
+    color: #95dadb;;
   }
 
   .opener {
@@ -114,6 +118,7 @@ a:hover {
 
   .project-btn {
     margin-left: 7vw;
+    background-color: #95dadb;
   }
 
  
