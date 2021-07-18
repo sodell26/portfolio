@@ -102,6 +102,12 @@ a:hover {
   color: #000000;
 }
 
+@media screen and (min-width: 800px) {
+  .card {
+    width: 18rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   body {
     background: #5d6da3;
