@@ -91,6 +91,13 @@ a:hover {
   margin-top: 20rem;
 }
 
+img {
+  max-width: 100%;
+}
+
+.resume-row {
+  margin-top: 5%;
+}
 
 .footing {
   margin-top: 10%;
